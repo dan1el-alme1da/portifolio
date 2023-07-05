@@ -141,3 +141,24 @@ span{
 .btn:hover {
     box-shadow: none;
 }
+
+.sobre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: var(--second-bg-color);
+}
+
+.sobre-img img {
+    width:35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.sobre-content {
+    
+}
