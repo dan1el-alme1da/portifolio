@@ -64,11 +64,6 @@ section {
     transition: .3s;
 }
 
-.navbar a:hover,
-.navbar a.active {
-    color: var(--main-color);
-}
-
 #menu-icon {
     font-size:3.6rem;
     color: var(--text-color);
@@ -404,7 +399,7 @@ span{
     background: var(--bg-color);
     border-top: .1rem solid rgba(0,0,0, .2);
     box-shadow: 0 .5rem 1rem rgba(0,0,0, .2);
-    display: none;
+    display:none;
 }
 
 .navbar.active {
@@ -416,3 +411,22 @@ span{
     font-size: 2rem;
     margin: 3rem 0;
 }
+
+.home {
+    flex-direction: column;
+}
+
+.home-content h3 {
+    font-size: 2.6rem;
+}
+
+.home-content h1 {
+    font-size: 5 rem;
+}
+
+.home-img img {
+    width: 70vw;
+    margin-top: 4rem;
+}
+
+
