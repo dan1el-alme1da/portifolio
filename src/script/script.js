@@ -4,7 +4,7 @@ let navbar = document.querySelector(".navbar");
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle("bx-x");
-    navbar.classList.toggle('active');
+    navbar.classList.toggle("active");
 };
 /*============================== scroll sections active link =============================*/
 let sections = document.querySelectorAll("section");
@@ -30,6 +30,6 @@ let header = document.querySelector("header");
 header.classList.toggle("sticky", window.scrollY > 100);
 
 /* ============== remove toggle icon and navbar when click navbar link (scroll)==========*/
-menuIcon.classList.remove('bx-x');
-navbar.classList.remove('active');
+menuIcon.classList.remove("bx-x");
+navbar.classList.remove("active");
 };
