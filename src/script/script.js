@@ -33,3 +33,16 @@ header.classList.toggle("sticky", window.scrollY > 100);
 menuIcon.classList.remove("bx-x");
 navbar.classList.remove("active");
 };
+
+/* ============== scroll reavel ======================*/
+ScrollReveal({ 
+    
+    distance: '80',
+    duration: 2000,
+    delay: 200
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .service-container, .portifolio-box, .contact-form', { origin: 'bottom' });
+ScrollReveal().reveal('.home-content h1, .sobre-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content p, .sobre-content', { origin: 'right' });
