@@ -62,6 +62,7 @@ section {
     color: var(--text-color);
     margin-left: 4rem;
     transition: .3s;
+
 }
 
 .navbar a:hover,
@@ -77,7 +78,7 @@ section {
 
 .home {
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
 
@@ -155,7 +156,8 @@ span{
 }
 
 .sobre-img img {
-    width:35vw;
+    width:30%;
+    height: 30%;
 }
 
 .heading {
@@ -230,7 +232,7 @@ span{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 .portifolio-container .portifolio-box {
@@ -239,6 +241,8 @@ span{
     box-shadow: 0 0 1rem var(--bg-color);
     overflow: hidden;
     display: flex;
+    width: 90%;
+    height:90%;
 }
 
 .portifolio-box img {
@@ -424,11 +428,9 @@ span{
     display: block;
     font-size: 2rem;
     margin: 3rem 0;
+    
 }
 
-.home {
-    flex-direction: column;
-}
 
 .home-content h3 {
     font-size: 2.6rem;
@@ -439,7 +441,7 @@ span{
 }
 
 .home-img img {
-    width: 70vw;
+    width: 30vw;
     margin-top: 4rem;
 }
 
@@ -448,7 +450,7 @@ span{
 }
 
 .sobre img {
-    width: 70vw;
+    width: 30vw;
     margin-top: 4rem;
 }
 
@@ -463,7 +465,7 @@ span{
 .portifolio-container {
     grid-template-columns: repeat(2, 1fr);
 }
-
+                  
 @media (max-width: 617px) {
     .portifolio-container {
         grid-template-columns: 1fr;
@@ -475,6 +477,12 @@ span{
         font-size: 50%;
     }
 
+    .home-content {
+        text-align: center;
+        font-size: 40%;
+
+    }
+
     .contact form .input-box input {
         width: 100%;
     }
@@ -482,8 +490,13 @@ span{
 
 @media (max-width: 365px) {
     .home-img img {
-        width: 90vw;
+        width:25vw;
     }
+    .home-content {
+        flex-direction: column-reverse;
+    }
+
+    
 
     .about-img img {
         width: 90vw;
