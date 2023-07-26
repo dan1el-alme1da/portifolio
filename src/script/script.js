@@ -46,3 +46,13 @@ ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .service-container, .portifolio-box, .contact-form', { origin: 'bottom' });
 ScrollReveal().reveal('.home-content h1, .sobre-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .sobre-content', { origin: 'right' });
+
+/* ============== type js ======================*/
+const typed = typed ('.multiple-text',{
+    strings: ['desenvolvedor frontend', 'desenvolvedor backend', 'pai'],
+    typespeed: 100,
+    backspeed: 100,
+    backdelay: 1000,
+    lupe: true
+
+})
