@@ -37,7 +37,7 @@ navbar.classList.remove("active");
 /* ============== scroll reavel ======================*/
 ScrollReveal({ 
     
-    distance: '80',
+    distance: 80,
     duration: 2000,
     delay: 200
 });
