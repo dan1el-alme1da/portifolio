@@ -48,11 +48,32 @@ ScrollReveal().reveal('.home-content h1, .sobre-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .sobre-content', { origin: 'right' });
 
 /* ============== type js ======================*/
-const typed = typed ('.multiple-text',{
-    strings: ['desenvolvedor frontend', 'desenvolvedor backend', 'pai'],
-    typespeed: 100,
-    backspeed: 100,
-    backdelay: 1000,
-    lupe: true
 
-})
+new TypeIt(".multiple-text", {
+    speed: 30,
+    startDelay: 900,
+  })
+    .type("esenvol", { delay: 100 })
+    .move(-8, { delay: 100 })
+    .type("D", { delay: 400 })
+    .move(null, { to: "START", instant: true, delay: 300 })
+    .move(1, { delay: 200 })
+    .delete(1)
+    .type("e", { delay: 225 })
+    .pause(200)
+    .move(2, { instant: true })
+    .pause(200)
+    .move(4, { instant: true })
+    .move(5, { delay: 200 })
+    .type("a", { delay: 350 })
+    .move(null, { to: "END" })
+    .type("nvolvedor fronend, ")
+    .move(-5, { delay: 150 })
+    .type("t")
+    .move(null, { to: "END" })
+    .type(' desenvolvedor <span class="place">internet</span>', { delay: 400 })
+    .delete(".place", { delay: 800, instant: true })
+    .type('<em><strong class="font-semibold">backend.</strong></em>', {
+      speed: 100,
+    })
+    .go();
