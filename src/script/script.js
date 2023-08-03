@@ -50,24 +50,22 @@ ScrollReveal().reveal('.home-content p, .sobre-content', { origin: 'right' });
 /* ============== type js ======================*/
 
 new TypeIt(".multiple-text", {
-    speed: 30,
+    speed: 25,
     startDelay: 900,
   })
-    .type("esenvol", { delay: 100 })
-    .move(-8, { delay: 100 })
+    .type("isenvo", { delay: 100 })
+    .move(-7, { delay: 100 })
     .type("D", { delay: 400 })
     .move(null, { to: "START", instant: true, delay: 300 })
     .move(1, { delay: 200 })
     .delete(1)
     .type("e", { delay: 225 })
     .pause(200)
-    .move(2, { instant: true })
-    .pause(200)
-    .move(4, { instant: true })
+    
     .move(5, { delay: 200 })
-    .type("a", { delay: 350 })
+    .type("l", { delay: 350 })
     .move(null, { to: "END" })
-    .type("nvolvedor fronend, ")
+    .type("vedor fronend, ")
     .move(-5, { delay: 150 })
     .type("t")
     .move(null, { to: "END" })
