@@ -2,7 +2,7 @@
  portifolio pessoal
  personal portifolio website | responsive
 
- ---tools---
+ ##---tools---
  icons: https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css
  type js: https://unpkg.com/typeit@8.7.1/dist/index.umd.js
  scrollrevels: https://unpkg.com/scrollreveal
