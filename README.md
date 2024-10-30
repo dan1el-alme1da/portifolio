@@ -7,3 +7,6 @@
  type js: https://unpkg.com/typeit@8.7.1/dist/index.umd.js
  scrollrevels: https://unpkg.com/scrollreveal
  fonts googlepis: http://fonts.googlepis.com/css2?family=poppins:wght@300;400;500;600;700;800;900&display=swap
+
+ acesso ao site:
+ https://dan1el-alme1da.github.io/portifolio/
