@@ -207,6 +207,13 @@ span {
     transition: .5s ease;
 }
 
+@media (max-width: 768px) {
+    .linkedin-button {
+        margin-left: center;
+        padding: 0.8rem 2rem;
+        font-size: 1.4rem;
+    }
+
 .services h2 {
     margin-bottom: 5rem ;
 }
